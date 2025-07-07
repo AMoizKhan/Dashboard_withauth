@@ -99,7 +99,7 @@ export const AuthForm: React.FC = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="bg-background/50"
+                  className="bg-slate-50 border-slate-200 focus:border-purple-500 focus:ring-purple-500/20"
                 />
               </div>
               <div className="space-y-2">

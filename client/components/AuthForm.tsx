@@ -50,18 +50,18 @@ export const AuthForm: React.FC = () => {
     <div className="min-h-screen auth-gradient flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary rounded-2xl mb-4">
-            <Users className="w-8 h-8 text-primary-foreground" />
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl mb-4 shadow-lg">
+            <Users className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
             CollabBoard
           </h1>
-          <p className="text-muted-foreground mt-2">
+          <p className="text-slate-100 mt-2 font-medium">
             Real-time collaboration made simple
           </p>
         </div>
 
-        <Card className="shadow-2xl border-0 bg-card/80 backdrop-blur-sm">
+        <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur-sm">
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl text-center">
               {isLogin ? "Welcome back" : "Create account"}

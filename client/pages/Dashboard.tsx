@@ -103,7 +103,7 @@ export const Dashboard: React.FC = () => {
   }
 
   return (
-    <div className="flex-1 overflow-auto">
+    <div className="flex-1 overflow-auto dashboard-gradient">
       <div className="p-8">
         {/* Header */}
         <div className="mb-8">

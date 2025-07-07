@@ -107,8 +107,10 @@ export const Dashboard: React.FC = () => {
       <div className="p-8">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Dashboard</h1>
-          <p className="text-muted-foreground">
+          <h1 className="text-3xl font-bold mb-2 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+            Dashboard
+          </h1>
+          <p className="text-slate-600 font-medium">
             Manage your collaboration boards and track your progress
           </p>
         </div>

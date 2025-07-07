@@ -85,7 +85,7 @@ export const AuthForm: React.FC = () => {
                     value={formData.name}
                     onChange={handleInputChange}
                     required={!isLogin}
-                    className="bg-background/50"
+                    className="bg-slate-50 border-slate-200 focus:border-purple-500 focus:ring-purple-500/20"
                   />
                 </div>
               )}

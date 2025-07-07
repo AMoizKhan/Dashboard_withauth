@@ -59,8 +59,8 @@ export const Sidebar: React.FC = () => {
               className={cn(
                 "flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors",
                 isActive
-                  ? "bg-sidebar-accent text-sidebar-accent-foreground"
-                  : "text-sidebar-foreground hover:bg-sidebar-accent/50 hover:text-sidebar-accent-foreground",
+                  ? "bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-md"
+                  : "text-slate-700 hover:bg-indigo-50 hover:text-indigo-700",
               )}
             >
               <item.icon className="w-5 h-5" />

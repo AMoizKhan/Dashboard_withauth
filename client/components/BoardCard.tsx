@@ -112,15 +112,18 @@ export const BoardCard: React.FC<BoardCardProps> = ({
               </div>
             </div>
             <div className="flex gap-1">
-              {board.columns.slice(0, 3).map((column, index) => (
-                <div
-                  key={column.id}
-                  className="w-2 h-2 rounded-full bg-primary opacity-80"
-                  style={{
-                    backgroundColor: `hsl(${220 + index * 40}, 70%, 60%)`,
-                  }}
-                />
-              ))}
+              {board.columns.slice(0, 3).map((column, index) => {
+                const colors = ["#667eea", "#764ba2", "#f093fb"];
+                return (
+                  <div
+                    key={column.id}
+                    className="w-2 h-2 rounded-full opacity-80"
+                    style={{
+                      backgroundColor: colors[index % colors.length],
+                    }}
+                  />
+                );
+              })}
             </div>
           </div>
         </Link>

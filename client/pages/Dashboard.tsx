@@ -123,17 +123,16 @@ export const Dashboard: React.FC = () => {
               className="border-0 bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <CardContent className="flex items-center p-6">
-                <div
-                  className={cn(
-                    "p-2 rounded-lg bg-background mr-4",
-                    stat.color,
-                  )}
-                >
-                  <stat.icon className="w-6 h-6" />
+                <div className="p-3 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 mr-4 shadow-lg">
+                  <stat.icon className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">{stat.title}</p>
-                  <p className="text-2xl font-bold">{stat.value}</p>
+                  <p className="text-sm font-medium text-slate-600">
+                    {stat.title}
+                  </p>
+                  <p className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                    {stat.value}
+                  </p>
                 </div>
               </CardContent>
             </Card>

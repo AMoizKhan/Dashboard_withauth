@@ -79,7 +79,7 @@ export const Sidebar: React.FC = () => {
       </nav>
 
       {/* User Menu */}
-      <div className="p-4 border-t border-sidebar-border">
+      <div className="p-4 border-t border-slate-200">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button

@@ -37,7 +37,7 @@ export const Sidebar: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col w-64 bg-sidebar border-r border-sidebar-border h-screen">
+    <div className="flex flex-col w-64 bg-gradient-to-b from-white to-slate-50 border-r border-slate-200 h-screen shadow-lg">
       {/* Logo */}
       <div className="flex items-center gap-2 p-6 border-b border-sidebar-border">
         <div className="flex items-center justify-center w-8 h-8 bg-primary rounded-lg">

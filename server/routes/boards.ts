@@ -115,7 +115,7 @@ const boards: Board[] = [
             position: 0,
             columnId: "col-3",
             assignees: [],
-            labels: [{ id: "label-5", name: "Planning", color: "#f59e0b" }],
+            labels: [{ id: "label-5", name: "Planning", color: "#8b5cf6" }],
             comments: [],
             checklists: [],
             attachments: [],

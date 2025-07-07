@@ -210,15 +210,15 @@ export const Dashboard: React.FC = () => {
               ))}
             </div>
           ) : (
-            <Card className="border-0 bg-card/50 backdrop-blur-sm">
+            <Card className="border-0 bg-white/80 backdrop-blur-sm shadow-lg">
               <CardContent className="flex flex-col items-center justify-center py-12">
-                <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-4">
-                  <Grid3X3 className="w-8 h-8 text-muted-foreground" />
+                <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                  <Grid3X3 className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">
+                <h3 className="text-lg font-semibold mb-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                   {searchTerm ? "No boards found" : "No boards yet"}
                 </h3>
-                <p className="text-muted-foreground text-center mb-6 max-w-sm">
+                <p className="text-slate-600 text-center mb-6 max-w-sm font-medium">
                   {searchTerm
                     ? "Try adjusting your search terms"
                     : "Create your first board to start collaborating with your team"}
@@ -226,7 +226,7 @@ export const Dashboard: React.FC = () => {
                 {!searchTerm && (
                   <Button
                     onClick={() => navigate("/board/new")}
-                    className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90"
+                    className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
                   >
                     <Plus className="w-4 h-4 mr-2" />
                     Create Your First Board

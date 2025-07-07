@@ -120,7 +120,7 @@ export const Dashboard: React.FC = () => {
           {stats.map((stat) => (
             <Card
               key={stat.title}
-              className="border-0 bg-card/50 backdrop-blur-sm"
+              className="border-0 bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <CardContent className="flex items-center p-6">
                 <div

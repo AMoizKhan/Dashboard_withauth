@@ -133,7 +133,7 @@ export const AuthForm: React.FC = () => {
             </form>
 
             <div className="text-center text-sm">
-              <span className="text-muted-foreground">
+              <span className="text-slate-600">
                 {isLogin
                   ? "Don't have an account?"
                   : "Already have an account?"}
@@ -141,7 +141,7 @@ export const AuthForm: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setIsLogin(!isLogin)}
-                className="text-primary hover:underline font-medium"
+                className="text-purple-600 hover:text-purple-700 hover:underline font-semibold transition-colors"
               >
                 {isLogin ? "Sign up" : "Sign in"}
               </button>

@@ -189,7 +189,7 @@ export const Dashboard: React.FC = () => {
               </div>
               <Button
                 onClick={() => navigate("/board/new")}
-                className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90"
+                className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <Plus className="w-4 h-4 mr-2" />
                 New Board

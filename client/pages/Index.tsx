@@ -20,7 +20,7 @@ export default function Index() {
   }
 
   return (
-    <div className="flex h-screen bg-background">
+    <div className="flex h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
       <Sidebar />
       <Dashboard />
     </div>

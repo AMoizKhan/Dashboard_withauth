@@ -71,7 +71,7 @@ export const Sidebar: React.FC = () => {
 
         <Button
           onClick={() => navigate("/board/new")}
-          className="w-full justify-start gap-3 mt-4 bg-primary hover:bg-primary/90"
+          className="w-full justify-start gap-3 mt-4 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
         >
           <Plus className="w-5 h-5" />
           New Board

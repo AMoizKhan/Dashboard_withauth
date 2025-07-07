@@ -142,7 +142,9 @@ export const Dashboard: React.FC = () => {
         {/* Recent Boards */}
         {recentBoards.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Recent Boards</h2>
+            <h2 className="text-xl font-semibold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+              Recent Boards
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {recentBoards.map((board) => (
                 <BoardCard key={board.id} board={board} />

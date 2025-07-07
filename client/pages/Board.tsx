@@ -347,7 +347,7 @@ export const Board: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col h-screen bg-gradient-to-br from-background via-muted/20 to-background">
+    <div className="flex flex-col h-screen board-gradient">
       {/* Board Header */}
       <div className="flex items-center justify-between p-4 bg-card/80 backdrop-blur-sm border-b">
         <div className="flex items-center gap-4">

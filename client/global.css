@@ -141,6 +141,18 @@
   }
 
   .accent-gradient {
-    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    background: linear-gradient(135deg, #c471ed 0%, #f64f59 100%);
+  }
+
+  .warning-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .success-gradient {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  }
+
+  .info-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   }
 }
